@@ -1,0 +1,67 @@
+body {
+  background-color: #fffacd;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+input {
+  background-color: #cdc8b1;
+  font-size: 24px;
+  color: white;
+  border: 2px solid black;
+  width: 50%;
+  padding: 8px 16px;
+}
+
+input:focus{ background-color: #8b8878; }
+
+label { 
+  padding: 8px 16px;
+  /*padding-left: 5px; */
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  list-style: none;
+  width: 25%;
+  font-size: 24px;
+}
+
+button.deleteButton, button.completedButton, button.toggleAllButton {
+  border: 2px solid #fffacd;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+button.deleteButton, button.toggleAllButton {
+  background-color: #555555;
+  color: white;
+  text-decoration: none;
+}
+
+button.deleteButton:active, button.toggleAllButton:active {
+  background-color: #333333;
+}
+
+
+button:focus { outline:0; }
+
+button:active {
+  border-bottom: none;
+  border-right: none;
+  border-left: 4px solid #fffacd;
+  transform: translateY(2px);
+  transform: translateX(2px);
+}
+
+
+#greenButton {
+  background-color: green;
+  color: green;
+}
